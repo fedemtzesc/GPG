@@ -1,0 +1,19 @@
+GPG es un programa para manejo de encripcion de informacion
+
+A continuacion se presenta una lista de los comandos mas usados para
+este software:
+
+1. Comando para listar las llaves registradas en mi sistema:
+	gpg --list-keys
+
+2. Comando para generar una llave
+	gpg --full-gen-key
+	
+3. Comando para enviar mi llave publica a servidor:
+	gpg --keyserver hkp://pgp.mit.edu --send-keys C459DE92A3B5311C962F29765F9373CC7136C202
+	
+	Para buscarla en el server ir a :
+	https://pgp.mit.edu/
+	Y en la caja de busqueda meter el email de la clave.
+	
+
